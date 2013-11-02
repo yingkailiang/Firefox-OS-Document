@@ -1,0 +1,12 @@
+\documentclass[12pt]{article}
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+\begin{document}
+
+\section*{Firefox OS Asynchronized Request}
+In Firefox OS, app is treated as web page. Web apps need to access device hardware (such as battery status or the device vibration hardware), as well as access to data stored on the device (such as the calendar or contacts list). This is achieved via WebAPI.
+
+Most WebAPIs need to send asynchronized request to access device resource. We use contacts API as an example. When app sends request to get contact from contacts list,  it calls contacts API and registers onSuccess and onError event handlers which are the call back functions to handle response of the API call. 
+
+What contacts API do is sending get-contact request to system and return DOMRequest object. DomRequest object will contain the search result from contacts list after receiving response of contacts API. Addtionally, in order to identify which frame sends the request, DOMRequest includes DOMWindow. DOMWindow is created for each frame when creating new frame in HTML document.     
+\end{document}
