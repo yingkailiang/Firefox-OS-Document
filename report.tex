@@ -1,6 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage{lingmacros}
-\usepackage{tree-dvips}
+
 \begin{document}
 
 \section*{Firefox OS Asynchronized Request}
@@ -8,8 +7,7 @@ In Firefox OS, app is treated as web page. Web apps need to access device hardwa
 
 Most WebAPIs need to send asynchronized request to access device resource. We use contacts API as an example. When app sends request to get contact from contacts list,  it calls contacts API and registers onSuccess and onError callback handlers which are the callback functions to handle response of the API call. % call asynchronized WebAPI
 
-Contacts API will generate a random ID for the request and store request in array. Then sends get-contact request to system and return DOMRequest object. DOMRequest object will contain the search result from contacts list after receiving response of contacts API as well as reference to the operation's result. Addtionally, in order to identify which frame sends the request, DOMRequest includes DOMWindow which is created for each frame. % send request 
-
-After receiving the response, Firefox OS will use ID to retrieve the DOMRequest Object which send get-contact request from array. Callee can get the operation result only if the reference of DOMRequest still come from same domain.  % receive response
+Contacts API generates a random ID for the request and store request which is a DOMRequest in a list. DOMRequest object contains the search result from contacts list as well as a reference to the operation's result. Addtionally, in order to identify which frame sends the request, DOMRequest includes DOMWindow which is created for each frame. After random ID generated, Contacts API sends get-contact request to system and return DOMRequest object to caller.  % send request
+When Contacts API receives the response, Firefox OS will use ID to retrieve the DOMRequest Object which send get-contact request from list. Caller can get the operation result only if the reference of DOMRequest still come from same domain.  % receive response
 
 \end{document}

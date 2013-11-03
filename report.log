@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.20)  2 NOV 2013 21:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.20)  2 NOV 2013 21:56
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -28,60 +28,36 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/share/texmf-texlive/tex/latex/tree-dvips/lingmacros.sty
-\c@enums=\count87
-\widelabel=\dimen103
-\c@tempcnt=\count88
-\c@enumsi=\count89
-\eeindent=\dimen104
-)
-(/usr/share/texmf-texlive/tex/latex/tree-dvips/tree-dvips.sty
-\nodemargin=\dimen105
-\treelinewidth=\dimen106
-\dashlength=\dimen107
-\arrowwidth=\dimen108
-\arrowlength=\dimen109
-\pos@t=\toks14
-\pos@b=\toks15
-\pos@l=\toks16
-\pos@r=\toks17
-\pos@tl=\toks18
-\pos@tr=\toks19
-\pos@bl=\toks20
-\pos@br=\toks21
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+ [1
 
-[1
-
-
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./report.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 306 strings out of 493848
- 3385 string characters out of 1152822
- 51780 words of memory out of 3000000
- 3657 multiletter control sequences out of 15000+50000
+ 207 strings out of 493848
+ 2190 string characters out of 1152822
+ 49808 words of memory out of 3000000
+ 3566 multiletter control sequences out of 15000+50000
  4544 words of font info for 17 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 22i,4n,19p,467b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on report.pdf (1 page, 30143 bytes).
+ 22i,4n,19p,488b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on report.pdf (1 page, 30129 bytes).
 PDF statistics:
  14 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
